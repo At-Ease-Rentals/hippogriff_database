@@ -15,3 +15,4 @@ SELECT name FROM albums_migration WHERE sales < 20;
 SELECT * FROM albums_migration WHERE genre = 'rock';
 
 SELECT * FROM albums_migration WHERE genre LIKE 'Rock%';
+
