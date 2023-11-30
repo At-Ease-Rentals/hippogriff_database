@@ -1,5 +1,8 @@
 USE hippo_anthony;
 
+TRUNCATE  albums_migration;
+
+SELECT * FROM albums_migration;
 
 INSERT INTO albums_migration (artist, name, release_date, sales, genre)
 VALUES
